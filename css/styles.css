@@ -1,0 +1,54 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  background-color: darkorange;
+  color: black;
+  padding: 1em 0;
+}
+
+#logo {
+  text-align: center;
+  background-color: maroon;
+  color: white;
+  padding: 1em 0;
+}
+
+#title {
+  text-align: center;
+text-decoration: underline;
+  background-color: none;
+  color: darkblue;
+  padding: 1em 0;
+}
+
+
+#crop_image {
+  height: 200px;
+    width: 200px;
+  ;
+}
+nav ul{
+  margin:0;
+  padding: 0;
+}
+nav li {
+  list-style-type: none;
+  text-align: center;
+  background-color: lightgray;
+}
+nav a {
+  display: block;
+  background-color: lightgray;
+  text-decoration: none;
+  color:black;
+  padding: 0.5em 0;
+  border: 1px solid black;
+}
+
+nav a:hover {
+  background-color: lightyellow;
+}
